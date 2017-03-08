@@ -13,7 +13,8 @@
   <ul class="nav navbar-nav">
     <li><a href="/" class="navbar-brand">COMP2068 - Book Store</a></li>
     <li><a href="/books">Books</a></li>
-
+    <% if (user) { %><li><a href="/users">Users</a></li><% } %>
+    
     <% if (!user) { %>
       <li><a href="/register">Register</a></li>
       <li><a href="/login">Login</a></li>
