@@ -1,6 +1,4 @@
-/**
- * Created by RFreeman on 2/8/2017.
- */
+"use strict";
 // reference mongoose
 let mongoose = require('mongoose');
 

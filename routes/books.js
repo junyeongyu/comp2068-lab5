@@ -1,6 +1,4 @@
-/**
- * Created by RFreeman on 2/1/2017.
- */
+"use strict";
 // express setup
 let express = require('express');
 let router = express.Router();

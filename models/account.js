@@ -1,6 +1,4 @@
-/**
- * Created by RFreeman on 3/8/2017.
- */
+"use strict";
 let mongoose = require('mongoose');
 
 // this is needed to tell the app this model is for managing user accounts; it is not a regular model like book
